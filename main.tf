@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "b" {
 
   tags = {
     Name        = "Teste"
-    Environment = "Dev"
+    Environment = "zero"
   }
 }
 
